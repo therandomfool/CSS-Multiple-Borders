@@ -1,0 +1,32 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Chango', cursive;
+    background: #092353a2;
+}
+div{
+    height: 160px;
+    width: 250px;
+    position: absolute;
+    background-color: white;
+    margin: auto auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    box-shadow: 0 0 0 15px #4fe6af,
+                0 0 0 30px #10c4d3,
+                0 0 0 45px #0c80e3,
+                0 0 0 60px #0c4e8b;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #0c4e8b;
+}
